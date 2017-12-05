@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+        "sourceMap": false,
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es5",
+        "jsx": "react",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "baseUrl": "./",
+        "paths": {
+            "actions": ["src/actions/"],
+            "components": ["src/components/"],
+            "config": ["src/config/"],
+            "enums": ["src/enums/"],
+            "helpers": ["src/helpers/"],
+            "reducers": ["src/reducers/"],
+            "middlewares": ["src/middlewares/"],
+            "store": ["src/store/"],
+            "icons": ["src/icons/"],
+            "styles": ["src/styles/"]
+        },
+        "types" : ["react", "react-dom"]
+    },
+    "jest": {
+        "globals": {
+            "ts-jest": {
+                "useBabelrc": true
+            }
+        }
+    },
+    "awesomeTypescriptLoaderOptions": {
+        "skipDeclarationFilesCheck": true,
+        "useBabel": true
+    }
+}

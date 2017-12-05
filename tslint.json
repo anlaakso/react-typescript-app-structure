@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "tslint-immutable"
+  ],
+  "rules": {
+    "no-var-keyword": true,
+    "no-parameter-reassignment": true,
+    "typedef": true,
+    "readonly-keyword": true,
+    "readonly-array": true,
+    "no-let": false,
+    "no-object-mutation": true,
+    "no-this": false,
+    "no-class": false,
+    "no-mixed-interface": true,
+    "no-expression-statement": false
+  }
+}

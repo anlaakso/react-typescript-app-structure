@@ -1,0 +1,17 @@
+# Dependencies
+node_modules
+
+# yarn lock files
+*.lock
+
+# Debug logs
+*.log
+
+# Documentation
+*.doc
+
+# Typesctipt
+.external-ecmascript.*
+
+# Builds
+public

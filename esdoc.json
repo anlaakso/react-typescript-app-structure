@@ -1,0 +1,8 @@
+{
+  "source": "./src",
+  "destination": "./docs",
+  "includes": ["\\.(ts|tsx|js|jsx)$"],
+  "plugins": [
+        {"name": "esdoc-typescript-plugin", "option": {"enable": true}}
+    ]
+}
